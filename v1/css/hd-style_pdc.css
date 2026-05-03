@@ -811,6 +811,14 @@ body {
     display: inline-block;
     /* margin: 0; */
 }
+#hd p span.color-gradient-light,
+#hd .theme-black p span.color-gradient-light{
+        color: #16dbff !important;
+        background-image: inherit;
+    background: inherit;
+    -webkit-text-fill-color: inherit;
+    
+}
 #hd span.h3{
     font-family: "TTNormsProMedium", "Roboto", "Segoe UI", "Arial", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
     font-size: 2.5em;
@@ -6037,8 +6045,9 @@ screen and (max-width: 1023px) {
     margin-top: 0em;
 }
 #hd .section-features .grid .p1 b{
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 1.1;
+    font-weight: 300;
 }
 #hd .section-features .grid .box-1 .p1 span{
     font-size: 0.9em;
@@ -6610,7 +6619,7 @@ screen and (max-width: 1023px) {
 #hd .hd-container .ksp_box {
     display: flex;
     /* width: 100%; */
-    margin: 3vw 0 0;
+    margin: 1.5vw 0 0;
 }
 #hd .hd-container .ksp_box img{
     width: 80%;
@@ -6830,6 +6839,14 @@ screen and (max-width: 1023px) {
     /* width: 100%; */
     position: relative;
 }
+#hd .section-tab #tab1-panel-0 img.pic_asus_NPU{
+        width: 100vw;
+    max-width: inherit !important;
+    margin: -3vw -58vw;
+    z-index: -1;
+    /* width: 100%; */
+    position: relative;
+}
 #hd .section-tab #tab1-panel-2 img.Copy_of_DDR5x{
     width: 70vw;
     max-width: inherit !important;
@@ -7016,7 +7033,7 @@ screen and (max-width: 1023px) {
     z-index: 2;
     padding-top: 3vw;
     width: 90%;
-    padding-bottom: 6vw;
+    padding-bottom: 3vw;
 }
 /* #hd .section-desktop .inner .text-content{
     padding-top: 0vw;
@@ -7192,7 +7209,7 @@ screen and (max-width: 1023px) {
     display: inline-block;
     margin: 2em 0.5em 1em;
     padding: 1em 1.5em 1em;
-    background: #0005e6;
+    background: #01afff;
     text-decoration: none;
     /* background: linear-gradient(to right, #000 0%, #008cf7 15%, #00dfed 85%, #000 100%); */
 }
@@ -7201,6 +7218,7 @@ screen and (max-width: 1023px) {
     /* padding: 10px 2em; */
     font-size: 1.4em;
     /* text-shadow: 1px 5px 8px rgba(0, 0, 0, 0.9); */
+        color: #000 !important;
 }
 #hd .section-started p.h3 {}
 
@@ -7330,6 +7348,86 @@ screen and (max-width: 1023px) {
     }
 }
 
+
+
+#hd .section-started .list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 3em auto 0 auto;
+    max-width: 1200px;
+}
+#hd .section-started .list .list_info{
+    width: 33.33%;
+    margin-bottom: 3em;
+    padding: 0 15px;
+    box-sizing: border-box;
+    display: block;
+}
+#hd .section-started .list .list_info h4{
+    font-size: 1.5em;
+    font-family: "TTNormsProMedium", "TTNorms", "MyriadPro", "Roboto", "Arial", "Apple LiGothic Medium", "STHeiti Light", "Microsoft JhengHei", sans-serif;
+    margin: 1em 0 0.5em 0;
+    line-height: 1.1em;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+}
+/* #hd .section-started .list .list_info p{
+    font-size: 1.1em;
+    margin: 0.8em 0 0 0;
+    text-align: center;
+    line-height: 1.3em;
+    padding: 0 15px 0 0;
+    color: #000;
+    text-align: center;
+} */
+#hd .section-started.resources .list .list_info p{
+    text-align: center;
+}
+#hd .section-started.resources .list .list_info p a:hover{
+    color: #1b6e9c;
+}
+#hd .section-started .note{
+    max-width: 1150px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 1em;
+}
+@media screen and (max-width: 1023px) {    
+#hd .section-started .inner {
+    padding: 50px;
+}
+}
+@media screen and (max-width: 767px) {    
+#hd .section-started{
+    padding: 20px 20px 60px 20px;
+}
+#hd .section-started .inner {
+    padding: 40px;
+    border-radius: 30px;
+}
+#hd .section-started .list .list_info{
+    width: 50%;
+    margin-bottom: 50px;
+}
+#hd .section-started .list .list_info h4{
+    font-size: 1.2em;
+}
+#hd .section-started .list .list_info p{
+    font-size: 1em;
+}
+}
+
+@media screen and (max-width: 500px) {    
+#hd .section-started .inner{
+    padding: 50px 20px;
+}
+#hd .section-started .list .list_info{
+    width: 100%;
+}
+}
 
 
 .table-wrapper {
@@ -9887,7 +9985,7 @@ screen and (max-width: 1023px) {
     text-align: center;
     z-index: 2;
     padding-top: 3vw;
-    padding-bottom: 6vw;
+    padding-bottom: 3vw;
 }
 #hd #pageContent-support .tab-content span.h3{
     width: auto;
@@ -10796,7 +10894,7 @@ screen and (max-width: 1023px) {
 /* durability */
 
 #hd .section-durability{
-    background: #fff;
+    background: #000;
 }
 #hd .section-durability .inner {
     max-width: 1500px;
@@ -10816,19 +10914,19 @@ screen and (max-width: 1023px) {
     color: #000;
     padding-right: 30px;
 }
-#hd .section-durability .list{
+#hd .section-durability .infobox{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    max-width: 1300px;
+    max-width: 1200px;
     margin: 0 auto;
 }
-#hd .section-durability .list .entry{
+#hd .section-durability .infobox .entry{
     width: 80%;
     box-sizing: border-box;
 }
-#hd .section-durability .list .entry.logo{
+#hd .section-durability .infobox .entry.logo{
     width: 20%;
 }
 #hd .section-durability p a{
@@ -10839,7 +10937,7 @@ screen and (max-width: 1023px) {
     display: inline-block;
 }
 @media screen and (max-width: 1023px) {    
-#hd .section-durability .list .entry{
+#hd .section-durability .infobox .entry{
     width: 100%;
 }
 #hd .section-durability .default-title{
@@ -10850,22 +10948,27 @@ screen and (max-width: 1023px) {
     color: #000;
     padding-right: 0px;
 }
+#hd .section-durability .infobox .entry.logo{
+    width: 50%;
+}
 }
 @media screen and (max-width: 767px) {    
     #hd .section-durability p a{
         font-size: 1em;
     }
-    #hd .section-durability .list .entry.logo{
+    #hd .section-durability .infobox .entry.logo{
         width: 60%;
     }
-    #hd .section-durability .list{
-            flex-direction: column-reverse;
+    #hd .section-durability .infobox{
+            flex-direction: column;
             padding-top: 1em;
     }
     #hd .section-durability .inner{
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         padding-top: 0;
+                width: 90%;
+        padding: 0;
     }
     #hd .section-durability .inner .video-wraper{
         margin-top: 0;
@@ -10922,6 +11025,99 @@ screen and (max-width: 1023px) {
     height: 50px;
 }
 }
+
+#hd .section-durability .list {
+    max-width: 1200px;
+    margin: 3vw auto 0;
+    display: grid;
+    /* 行動版預設 1 欄 */
+    grid-template-columns: 1fr;
+    gap: 40px;
+    list-style: none;
+}
+
+/* 項目容器 */
+#hd .section-durability .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* 圓圈圖示容器 */
+#hd .section-durability .item .image {
+    width: 140px;
+    height: 140px;
+    background-color: inherit;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5em;
+    /* 輕微提升圖像質感 */
+    box-shadow: none;
+}
+
+#hd .section-durability .item .image img {
+    width: 90%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* 標題與內文 */
+#hd .section-durability .item h4 {
+        font-size: 1.5em;
+        font-family: "TTNormsProMedium", "TTNorms", "MyriadPro", "Roboto", "Arial", "Apple LiGothic Medium", "STHeiti Light", "Microsoft JhengHei", sans-serif;
+        margin: 0.5em 0 0.5em 0;
+        line-height: 1.1em;
+        color: #fff;
+        text-align: center;
+        font-weight: 500;
+}
+
+#hd .section-durability .item p {
+    max-width: 280px;
+    /* 改善 RWD 換行美感 */
+    text-wrap: balance;
+}
+
+/* -----------------------------------------------------------
+   RWD 響應式佈局調整
+----------------------------------------------------------- */
+
+/* 平板版：2 欄 */
+@media (min-width: 768px) {
+    #hd .section-durability .list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* 桌面版：還原設計稿 3+4 佈局 */
+@media (min-width: 1024px) {
+    #hd .section-durability .list {
+        grid-template-columns: repeat(12, 1fr);
+        column-gap: 20px;
+        row-gap: 60px;
+    }
+
+    /* 第一排 3 個：採用 Grid 欄位定位達到水平置中效果 */
+    #hd .section-durability .item:nth-child(1) { grid-column: 2 / span 3; }
+    #hd .section-durability .item:nth-child(2) { grid-column: 5 / span 3; }
+    #hd .section-durability .item:nth-child(3) { grid-column: 8 / span 3; }
+
+    /* 第二排 4 個：均分 12 欄，每項佔 3 欄 */
+    #hd .section-durability .item:nth-child(n+4) {
+        grid-column: span 3;
+    }
+}
+
+/* 無障礙焦點樣式 (WCAG 2.1 AA) */
+#hd .section-durability .item:focus-within {
+    outline: 2px solid #005bb7;
+    outline-offset: 10px;
+    border-radius: 8px;
+}
+
 /* video control */
 
 #hd .video-wraper{
@@ -11072,6 +11268,7 @@ screen and (max-width: 1023px) {
     max-width: 1100px;
     margin: 0 auto;
     text-align: center;
+    padding-bottom: 0;
 }
 #hd .section-freeadobe .text-content h4{
     font-size: 1.8em;
