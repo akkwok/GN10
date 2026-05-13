@@ -4010,7 +4010,7 @@ screen and (max-width: 1023px) {
 }
 
 #hd p.note b {
-    font-size: 1.1em;
+    font-size: 14px;
     line-height: 1.2em !important;
     margin: 0 0;
     font-weight: 500;
@@ -6950,6 +6950,7 @@ screen and (max-width: 1023px) {
     }
 }
 /* 上方特點清單區 */
+
 #hd .page-qualcomm .features-list {
     max-width: 1200px;
     margin: 2em auto;
@@ -6962,7 +6963,7 @@ screen and (max-width: 1023px) {
 
 #hd .page-qualcomm .features-list li {
     position: relative;
-    padding-left: 24px;
+    padding-left: 1em;
     margin-bottom: 0.1em;
     font-size: 1.1rem;
     line-height: 1.6;
@@ -6990,6 +6991,18 @@ screen and (max-width: 1023px) {
     width: 50%;
     padding: 0 5px;
 }
+
+#hd .page-qualcomm .ul_area{
+    display: flex;
+}
+#hd .page-qualcomm .ul_area .features-list{
+        display: block;
+    width: 50%;
+}
+#hd .page-qualcomm .ul_area .features-list li{
+    width: 100%;
+}
+
 @media screen and (max-width: 767px) {
     #hd .page-qualcomm .pic_box img{
         width: 100%;
@@ -7503,7 +7516,7 @@ screen and (max-width: 1023px) {
     max-width: 1150px;
     margin: 0 auto;
     margin-top: 20px;
-    font-size: 1em;
+    font-size: 13px;
 }
 @media screen and (max-width: 1023px) {    
 #hd .section-started .inner {
@@ -11699,8 +11712,8 @@ screen and (max-width: 1023px) {
     align-items: flex-start;     /* 確保數字對齊第一行頂部 */
     margin-bottom: 0.75rem;      /* 項目間距 */
     text-align: justify;         /* 文字左右對齊（視設計需求決定） */
-        font-size: 0.8em;
-    line-height: 1.2em !important;
+        font-size: 13px;
+    line-height: 1.1em !important;
     margin: 0 10px 0.2em 0;
     font-weight: 300;
 }
