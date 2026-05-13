@@ -6884,10 +6884,19 @@ screen and (max-width: 1023px) {
 #hd .section-tab #tab1-panel-3 .hd-content{
     padding-left: 1.5em;
 }
+
 @media screen and (max-width: 768px) {
     #hd .section-tab #tab1-panel-3 .tab-content-1d{
         display: flex;
         flex-direction: column-reverse;
+    }
+    #hd .section-tab #tab1-panel-0 img.pic_asus_NPU{
+        width: 250%;
+        margin: -5% 0 5% -140%;
+    }
+    #hd .section-tab #tab1-panel-z img.agentic_ai{
+                width: 120%;
+        margin: -5% 0 -5% -13%;
     }
 }
 /**/
@@ -7107,11 +7116,14 @@ screen and (max-width: 1023px) {
         width: 100%;
     }
     #hd .section-ai .hd-content{
-                width: 90%;
-        padding: 3em 0 !important;
+        width: 90%;
+        padding: 0 0 !important;
     }
 }
 @media screen and (max-width: 767px) {
+    #hd .section-ai{
+        padding-bottom: 0;
+    }
     #hd .section-ai .gif_box.row {
         flex-direction: column;
         align-items: center;
@@ -11739,4 +11751,11 @@ screen and (max-width: 1023px) {
     display: block;
     content: "";
     margin-top: 0.3rem;
+}
+
+@media screen and (max-width: 767px) { 
+    #hd .note_list li{
+        font-size: 0.8em;
+        margin: 0.5em 0;
+    }
 }
