@@ -7817,7 +7817,7 @@ screen and (max-width: 1023px) {
 
 @media screen and (max-width: 500px) {
     #hd .section-security .inner {
-        padding: 50px 20px;
+        padding: 50px 20px 0;
     }
 
     #hd .section-security .list .entry {
