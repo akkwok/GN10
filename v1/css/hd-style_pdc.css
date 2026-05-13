@@ -812,7 +812,9 @@ body {
     /* margin: 0; */
 }
 #hd p span.color-gradient-light,
-#hd .theme-black p span.color-gradient-light{
+#hd .theme-black p span.color-gradient-light,
+#hd p span.color-gradient-light sup,
+#hd .theme-black p span.color-gradient-light sup{
         color: #16dbff !important;
         background-image: inherit;
     background: inherit;
@@ -9919,17 +9921,20 @@ screen and (max-width: 1023px) {
 }
 #hd #Fanless-overview .maintitle h2 b{
     font-family: "TT Norms Pro", "STHeiti Light", "Apple LiGothic Medium", "微軟正黑體", "Microsoft JhengHei", Helvetica, Arial, sans-serif;
-    margin: 0 0.25em;
+    margin: 0 0;
 }
 #hd #Fanless-overview .maintitle h3{
     color: #fff;
     font-family: "TT Norms Pro Light", "STHeiti Light", "Apple LiGothic Medium", "微軟正黑體", "Microsoft JhengHei", Helvetica, Arial, sans-serif;
     font-weight: 600;
-    font-size: clamp(1.65em, 2vw, 2.125em);
+    font-size: clamp(1.3em, 1.7em, 2.5vw);
     margin: 0.5vw 0;
     text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+    font-weight: 300;
 }
-
+#hd #Fanless-overview .maintitle h3 b{
+    font-weight: 600;
+}
 #hd #Fanless-overview .maintitle img.overview{
     max-width: 600px;
 }
@@ -10004,7 +10009,7 @@ screen and (max-width: 1023px) {
         margin-bottom: 1em;
     }
     #hd #Fanless-overview .maintitle {
-        width: 44%;
+        width: 36%;
         max-width: 640px;
         left: 5%;
         top: 50%;
